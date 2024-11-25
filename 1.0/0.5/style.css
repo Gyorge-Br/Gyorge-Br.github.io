@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(61, 61, 61);
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+input{
+    color: white;
+}
+details {
+    border: 1px solid #5e5e5e;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+    background-color: rgb(48, 48, 48);
+    display: inline-block;
+}
+  
+summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+    color: white;
+}  
+details[open] {
+    padding: 0.5em;
+}
+  
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #5e5e5e;
+    padding: 8px;
+    text-align: left;
+    color: white;
+}
+
+th {
+    background-color: #202020;
+    color: white;
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 20px;        /* Largura fixa para o botão */
+    height: 20px;       /* Altura fixa igual à largura para torná-lo quadrado */
+    display: inline-block; /* Evita que o botão se estique automaticamente */
+    padding: 0;          /* Remove o padding interno para evitar que afete o tamanho */
+    margin: 1px;        /* Adiciona um espaço entre os botões */
+    box-sizing: border-box; /* Garante que o tamanho inclua borda e padding */
+}
+.butãoespecial {
+    width: 80px;        /* Largura fixa para o botão */
+    height: 20px;       /* Altura fixa igual à largura para torná-lo quadrado */
+    display: inline-block; /* Evita que o botão se estique automaticamente */
+    padding: 0;          /* Remove o padding interno para evitar que afete o tamanho */
+    margin: 0px;        /* Adiciona um espaço entre os botões */
+    box-sizing: border-box; /* Garante que o tamanho inclua borda e padding */
+}
